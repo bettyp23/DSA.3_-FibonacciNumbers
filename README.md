@@ -14,5 +14,5 @@ We analyze the execution time for each method across different values of `n` (5,
 - `fibonacci.cpp`: Implements both the iterative and recursive Fibonacci functions.
 
 1. **Compile the program:**
-   g++ -o fibonacci main.cpp fibonacci.cpp
-   ./fibonacci
+   g++ -std=c++11 fibonacci.cpp main.cpp -o fibonacci
+    ./fibonacci
