@@ -51,7 +51,7 @@ int main(){
         long long iterative_result = fib_iterative(n);
         cout<<" n = " << n << ", Avg Time: " << iterative_time << " sec\n ";
 
-    cout<<"\nRecursive Fibonacci times:\n";
+    cout<<"\nRecursive Fibonacci "<< n << " times:\n";
         double recursive_time = measure_time(fib_recursive, n);
         long long recursive_result = fib_recursive(n);
         cout<<" n = " << n << ", Avg Time: " << recursive_time << " sec\n ";
